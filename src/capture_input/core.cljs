@@ -1,8 +1,7 @@
 (ns capture-input.core
-  (:require [cljs.core.async :refer [put! chan <! >! alts! timeout] :as async]
+  (:require [cljs.core.async :refer [put! chan <! >! alts!] :as async]
             [goog.events :as events]
             [goog.events.KeyCodes :as KeyCodes]
-            [capture-input.player :refer [new-position set-position]]
             [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true])
   (:require-macros [cljs.core.async.macros :refer [go alt! go-loop]]))

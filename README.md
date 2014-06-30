@@ -21,3 +21,7 @@ The demonstration is showing that I'm able to listen for when the space, left an
 
 
 I'm a total noob with om and core.async. I've opened this up so that others can learn from what I learnt to use.
+
+##license?
+
+MIT
